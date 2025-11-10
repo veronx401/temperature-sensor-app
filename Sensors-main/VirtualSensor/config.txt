@@ -1,0 +1,4 @@
+DC-Sensor-01
+Data Center Room A
+22.0
+24.0

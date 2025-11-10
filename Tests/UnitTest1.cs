@@ -8,7 +8,6 @@ namespace Tests
         [Fact]
         public void InitializeSensor_ValidConfig_ReturnsSensor()
         {
-            // Skip file reading untuk sementara, test manual creation
             var sensor = new Sensor("DC-Sensor-01", "Data Center Room A", 22.0, 24.0);
 
             Assert.NotNull(sensor);
@@ -24,25 +23,24 @@ namespace Tests
             // Arrange
             var sensor = new Sensor("TestSensor", "TestLocation", 22.0, 24.0);
 
-            // Test: Apakah sensor generate temperatur antara 21.5-24.5°C?
-            // Act
+            //test:does the sensor generate a temperature between 21.5-24.5°C?
             double temperature = sensor.SimulateData();
 
             // Assert
-            Assert.InRange(temperature, 21.5, 24.5); // Allow some margin for noise
+            Assert.InRange(temperature, 21.5, 24.5); //allow some margin for noise
         }
 
         [Fact]
         public void ValidateData_ValidTemperature_ReturnsTrue()
         {
             // Arrange
-            // Test: Apakah method ValidateData() mengembalikan TRUE untuk temperatur valid?
+            //test: Does the ValidateData() method return TRUE for a valid temperature?
             var sensor = new Sensor("TestSensor", "TestLocation", 22.0, 24.0);
 
             // Act & Assert
             Assert.True(sensor.ValidateData(23.0)); //normal tempt
-            Assert.True(sensor.ValidateData(22.0)); //Batas bawah
-            Assert.True(sensor.ValidateData(24.0)); //Batas atas
+            Assert.True(sensor.ValidateData(22.0)); //Lower limit
+            Assert.True(sensor.ValidateData(24.0)); //Upper limit
         }
 
         [Fact]
@@ -52,9 +50,9 @@ namespace Tests
             var sensor = new Sensor("TestSensor", "TestLocation", 22.0, 24.0);
 
             // Act & Assert
-            Assert.False(sensor.ValidateData(21.9)); // Below min
-            Assert.False(sensor.ValidateData(24.1)); // Above max
-            Assert.False(sensor.ValidateData(30.0)); // Way above
+            Assert.False(sensor.ValidateData(21.9)); //below min
+            Assert.False(sensor.ValidateData(24.1)); //above max
+            Assert.False(sensor.ValidateData(30.0)); //way above
         }
 
         [Fact]
@@ -70,7 +68,7 @@ namespace Tests
                 temperatures.Add(sensor.SimulateData());
             }
 
-            // Assert - Should have some variation due to noise
+            // Assert - should have some variation due to noise
             Assert.True(temperatures.Distinct().Count() > 1);
         }
     }

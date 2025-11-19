@@ -1,0 +1,16 @@
+<RunSettings>
+	<DataCollectionRunSettings>
+		<DataCollectors>
+			<DataCollector friendlyName="XPlat code coverage">
+				<Configuration>
+					<ExcludeByFile>**/Program.cs</ExcludeByFile>
+					<ExcludeByFile>**/config.txt</ExcludeByFile>
+					<ExcludeByFile>**/*.json</ExcludeByFile>
+					<ExcludeByFile>**/*.txt</ExcludeByFile>
+					<ExcludeByFile>**/obj/**</ExcludeByFile>
+					<ExcludeByFile>**/bin/**</ExcludeByFile>
+				</Configuration>
+			</DataCollector>
+		</DataCollectors>
+	</DataCollectionRunSettings>
+</RunSettings>

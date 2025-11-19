@@ -1,5 +1,7 @@
 # Temperature Sensor Simulation
 
+[![.NET Tests](https://github.com/veronx401/temperature-sensor-app/actions/workflows/dotnet-test.yml/badge.svg)](https://github.com/veronx401/temperature-sensor-app/actions/workflows/dotnet-test.yml)
+
 A .NET console application that simulates a virtual temperature sensor for data center monitoring.
 
 
@@ -47,3 +49,4 @@ Run: `dotnet test`
 - **Test Coverage**: 71.5%
 - **Tests include**: Sensor initialization, data validation, anomaly detection, edge cases
 - **Framework**: xUnit
+

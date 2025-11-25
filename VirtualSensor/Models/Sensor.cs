@@ -80,7 +80,7 @@ namespace Sensors
                 return false;
         }
 
-        //log data to file teks
+        //log data to file text
         public void LogData(Reading reading)
         {
             try

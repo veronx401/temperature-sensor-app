@@ -30,6 +30,7 @@ namespace Sensors
                     bool injectFault = new Random().Next(100) < 15; // 15% probability
                     double tempC;
 
+                    //fault
                     if (injectFault && !sensor.IsFaultInjected)
                     {
                         tempC = sensor.InjectFault();
@@ -40,13 +41,14 @@ namespace Sensors
                         tempC = sensor.SimulateData(); //normal operation
                     }
 
+                    //valid/invalid
                     bool isValid = sensor.ValidateData(tempC);
                     string status = isValid ? "VALID" : "INVALID";
 
                     //fitur advanced - smoothing, anomaly detection, threshold checking
                     double smoothed = sensor.SmoothData();
                     bool isAnomaly = sensor.DetectAnomaly(tempC);
-                    bool thresholdAlert = sensor.CheckThreshold(tempC);
+                    bool thresholdAlert = sensor.CheckThreshold(tempC); //high
 
                     //display with flag status
                     string anomalyFlag = isAnomaly ? " [ANOMALY]" : "";

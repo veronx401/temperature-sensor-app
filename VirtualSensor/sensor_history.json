@@ -229,5 +229,26 @@
     "Value": 22.9,
     "DateTime": "2025-11-26T20:31:01.5429189+13:00",
     "IsValid": true
+  },
+  {
+    "ReadingId": 0,
+    "SensorName": "DC-Sensor-01",
+    "Value": 35,
+    "DateTime": "2025-11-26T21:15:08.7235676+13:00",
+    "IsValid": false
+  },
+  {
+    "ReadingId": 0,
+    "SensorName": "DC-Sensor-01",
+    "Value": 22.4,
+    "DateTime": "2025-11-26T21:15:09.7561369+13:00",
+    "IsValid": true
+  },
+  {
+    "ReadingId": 0,
+    "SensorName": "DC-Sensor-01",
+    "Value": 18,
+    "DateTime": "2025-11-26T21:15:10.7709825+13:00",
+    "IsValid": false
   }
 ]

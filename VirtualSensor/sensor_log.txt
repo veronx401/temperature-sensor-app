@@ -169,3 +169,6 @@
 2025-11-26 20:30:59 | DC-Sensor-01 | 22.1°C | Valid: True
 2025-11-26 20:31:00 | DC-Sensor-01 | 23.4°C | Valid: True
 2025-11-26 20:31:01 | DC-Sensor-01 | 22.9°C | Valid: True
+2025-11-26 21:15:08 | DC-Sensor-01 | 35°C | Valid: False
+2025-11-26 21:15:09 | DC-Sensor-01 | 22.4°C | Valid: True
+2025-11-26 21:15:10 | DC-Sensor-01 | 18°C | Valid: False

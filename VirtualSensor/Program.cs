@@ -5,7 +5,6 @@ namespace Sensors
 {
     internal static class Program
     {
-        private static readonly Random Random = new();
 
         private static void Main(string[] args)
         {
@@ -85,13 +84,15 @@ namespace Sensors
             }
         }
 
-        //DELETE THIS METHOD (because it has been replaced with Sensor.SimulateData())
-        // private static double GenerateTemperature()
-        // {`
-        //     const double mean = 22.0;
-        //     const double variation = 5.0;
-        //     return mean + (Random.NextDouble() * 2 - 1) * variation;
-        // }
     }
+
+    //DELETE THIS METHOD (because it has been replaced with Sensor.SimulateData())
+    // private static double GenerateTemperature()
+    // {`
+    //     const double mean = 22.0;
+    //     const double variation = 5.0;
+    //     return mean + (Random.NextDouble() * 2 - 1) * variation;
+    // }
 }
+
 

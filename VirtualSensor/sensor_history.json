@@ -2,71 +2,232 @@
   {
     "ReadingId": 0,
     "SensorName": "DC-Sensor-01",
-    "Value": 23.7,
-    "DateTime": "2025-11-19T15:16:11.6631391+13:00",
+    "Value": 23.4,
+    "DateTime": "2025-11-26T19:16:08.463293+13:00",
     "IsValid": true
   },
   {
     "ReadingId": 0,
     "SensorName": "DC-Sensor-01",
-    "Value": 22.9,
-    "DateTime": "2025-11-19T15:16:12.6976264+13:00",
+    "Value": 22.8,
+    "DateTime": "2025-11-26T19:16:09.4760639+13:00",
     "IsValid": true
   },
   {
     "ReadingId": 0,
     "SensorName": "DC-Sensor-01",
-    "Value": 23.5,
-    "DateTime": "2025-11-19T15:16:13.7643666+13:00",
+    "Value": 23.3,
+    "DateTime": "2025-11-26T19:16:10.4900345+13:00",
     "IsValid": true
   },
   {
     "ReadingId": 0,
     "SensorName": "DC-Sensor-01",
-    "Value": 21.8,
-    "DateTime": "2025-11-19T15:16:14.8821774+13:00",
+    "Value": 23.1,
+    "DateTime": "2025-11-26T19:16:11.5099404+13:00",
+    "IsValid": true
+  },
+  {
+    "ReadingId": 0,
+    "SensorName": "DC-Sensor-01",
+    "Value": 23.181827519890856,
+    "DateTime": "2025-11-26T19:16:12.5135836+13:00",
+    "IsValid": true
+  },
+  {
+    "ReadingId": 0,
+    "SensorName": "DC-Sensor-01",
+    "Value": 18,
+    "DateTime": "2025-11-26T19:16:13.5281107+13:00",
     "IsValid": false
   },
   {
     "ReadingId": 0,
     "SensorName": "DC-Sensor-01",
-    "Value": 22.4,
-    "DateTime": "2025-11-19T15:16:15.910009+13:00",
+    "Value": 23.5,
+    "DateTime": "2025-11-26T19:16:14.5371227+13:00",
+    "IsValid": true
+  },
+  {
+    "ReadingId": 0,
+    "SensorName": "DC-Sensor-01",
+    "Value": 23.2,
+    "DateTime": "2025-11-26T19:16:15.5475332+13:00",
+    "IsValid": true
+  },
+  {
+    "ReadingId": 0,
+    "SensorName": "DC-Sensor-01",
+    "Value": 23.8,
+    "DateTime": "2025-11-26T19:16:16.5644968+13:00",
+    "IsValid": true
+  },
+  {
+    "ReadingId": 0,
+    "SensorName": "DC-Sensor-01",
+    "Value": 23.4,
+    "DateTime": "2025-11-26T19:16:17.5805147+13:00",
     "IsValid": true
   },
   {
     "ReadingId": 0,
     "SensorName": "DC-Sensor-01",
     "Value": 22.7,
-    "DateTime": "2025-11-19T15:16:16.9288547+13:00",
+    "DateTime": "2025-11-26T19:16:18.6229509+13:00",
     "IsValid": true
   },
   {
     "ReadingId": 0,
     "SensorName": "DC-Sensor-01",
-    "Value": 23.7,
-    "DateTime": "2025-11-19T15:16:17.944258+13:00",
+    "Value": 24.2,
+    "DateTime": "2025-11-26T19:16:19.6370176+13:00",
+    "IsValid": false
+  },
+  {
+    "ReadingId": 0,
+    "SensorName": "DC-Sensor-01",
+    "Value": 22.1,
+    "DateTime": "2025-11-26T19:16:20.6522971+13:00",
     "IsValid": true
   },
   {
     "ReadingId": 0,
     "SensorName": "DC-Sensor-01",
-    "Value": 22.2,
-    "DateTime": "2025-11-19T15:16:18.955268+13:00",
+    "Value": 22.3,
+    "DateTime": "2025-11-26T19:16:21.6654806+13:00",
     "IsValid": true
   },
   {
     "ReadingId": 0,
     "SensorName": "DC-Sensor-01",
-    "Value": 23,
-    "DateTime": "2025-11-19T15:16:19.9690944+13:00",
+    "Value": 22.9,
+    "DateTime": "2025-11-26T19:16:22.6808972+13:00",
+    "IsValid": true
+  },
+  {
+    "ReadingId": 0,
+    "SensorName": "DC-Sensor-01",
+    "Value": 22.1,
+    "DateTime": "2025-11-26T19:16:23.6973413+13:00",
     "IsValid": true
   },
   {
     "ReadingId": 0,
     "SensorName": "DC-Sensor-01",
     "Value": 22.6,
-    "DateTime": "2025-11-19T15:16:20.9856606+13:00",
+    "DateTime": "2025-11-26T19:16:24.7108696+13:00",
+    "IsValid": true
+  },
+  {
+    "ReadingId": 0,
+    "SensorName": "DC-Sensor-01",
+    "Value": 18,
+    "DateTime": "2025-11-26T19:16:25.7242133+13:00",
+    "IsValid": false
+  },
+  {
+    "ReadingId": 0,
+    "SensorName": "DC-Sensor-01",
+    "Value": 22.8,
+    "DateTime": "2025-11-26T19:16:26.7399632+13:00",
+    "IsValid": true
+  },
+  {
+    "ReadingId": 0,
+    "SensorName": "DC-Sensor-01",
+    "Value": 22.1,
+    "DateTime": "2025-11-26T19:16:27.7477917+13:00",
+    "IsValid": true
+  },
+  {
+    "ReadingId": 0,
+    "SensorName": "DC-Sensor-01",
+    "Value": 23.7,
+    "DateTime": "2025-11-26T20:23:32.7031602+13:00",
+    "IsValid": true
+  },
+  {
+    "ReadingId": 0,
+    "SensorName": "DC-Sensor-01",
+    "Value": 22.8,
+    "DateTime": "2025-11-26T20:23:33.7396193+13:00",
+    "IsValid": true
+  },
+  {
+    "ReadingId": 0,
+    "SensorName": "DC-Sensor-01",
+    "Value": 23.8,
+    "DateTime": "2025-11-26T20:23:34.7679841+13:00",
+    "IsValid": true
+  },
+  {
+    "ReadingId": 0,
+    "SensorName": "DC-Sensor-01",
+    "Value": 22.6,
+    "DateTime": "2025-11-26T20:23:35.7958985+13:00",
+    "IsValid": true
+  },
+  {
+    "ReadingId": 0,
+    "SensorName": "DC-Sensor-01",
+    "Value": 22.7,
+    "DateTime": "2025-11-26T20:23:36.8239421+13:00",
+    "IsValid": true
+  },
+  {
+    "ReadingId": 0,
+    "SensorName": "DC-Sensor-01",
+    "Value": 23.8,
+    "DateTime": "2025-11-26T20:23:37.8497293+13:00",
+    "IsValid": true
+  },
+  {
+    "ReadingId": 0,
+    "SensorName": "DC-Sensor-01",
+    "Value": 22.7,
+    "DateTime": "2025-11-26T20:23:38.8747283+13:00",
+    "IsValid": true
+  },
+  {
+    "ReadingId": 0,
+    "SensorName": "DC-Sensor-01",
+    "Value": 23.2,
+    "DateTime": "2025-11-26T20:25:14.0222006+13:00",
+    "IsValid": true
+  },
+  {
+    "ReadingId": 0,
+    "SensorName": "DC-Sensor-01",
+    "Value": 23.5,
+    "DateTime": "2025-11-26T20:25:15.0590312+13:00",
+    "IsValid": true
+  },
+  {
+    "ReadingId": 0,
+    "SensorName": "DC-Sensor-01",
+    "Value": 22.2,
+    "DateTime": "2025-11-26T20:25:16.0838583+13:00",
+    "IsValid": true
+  },
+  {
+    "ReadingId": 0,
+    "SensorName": "DC-Sensor-01",
+    "Value": 22.1,
+    "DateTime": "2025-11-26T20:30:59.4709236+13:00",
+    "IsValid": true
+  },
+  {
+    "ReadingId": 0,
+    "SensorName": "DC-Sensor-01",
+    "Value": 23.4,
+    "DateTime": "2025-11-26T20:31:00.5033468+13:00",
+    "IsValid": true
+  },
+  {
+    "ReadingId": 0,
+    "SensorName": "DC-Sensor-01",
+    "Value": 22.9,
+    "DateTime": "2025-11-26T20:31:01.5429189+13:00",
     "IsValid": true
   }
 ]

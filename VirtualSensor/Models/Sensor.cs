@@ -14,8 +14,11 @@ namespace Sensors
         public double MaxTemp { get; set; }
         private Random random = new Random();
 
+        private List<Reading> _readingHistory = new List<Reading>();
+
         public Sensor()
         {
+            _readingHistory = LoadHistoryFromFile(); //load existing data
         }
 
         public Sensor(string name, string location, double minTemp, double maxTemp)
@@ -98,18 +101,29 @@ namespace Sensors
         }
 
         //history readings data
-        private List<Reading> _readingHistory = new List<Reading>();
+        private List<Reading> LoadHistoryFromFile()
+        {
+            try
+            {
+                if (File.Exists("sensor_history.json"))
+                {
+                    string json = File.ReadAllText("sensor_history.json");
+                    return JsonSerializer.Deserialize<List<Reading>>(json) ?? new List<Reading>();
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error loading history: {ex.Message}");
+            }
+            return new List<Reading>();
+        }
 
 
-        //save data to history and auto save every 10 readings
+        //save data to history and auto save
         public void StoreData(Reading reading)
         {
             _readingHistory.Add(reading);
-
-            if (_readingHistory.Count % 10 == 0) //save every 10 readings
-            {
-                SaveHistoryToFile();
-            }
+            SaveHistoryToFile(); //save every reading
         }
 
         //save history to file JSON
